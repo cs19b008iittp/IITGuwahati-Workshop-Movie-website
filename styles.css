@@ -1,0 +1,140 @@
+.container{
+    top: 2px;
+    padding:20px;
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    left: 25px;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+body{
+   max-width: 100%;
+}
+.name{
+  font-size: 32px;
+}
+.logo{
+    height: 45px;
+    width: 45px;
+}
+.search{
+    height: 40px;
+    width: 40px;
+    right: 10px;
+    margin-left: auto;
+}
+.input-holder{
+  border: 0px white;
+  width: 180px;
+  height: 30px;
+}
+.navstyles {
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+    /* justify-content: space-between;
+     */
+  }
+
+dt{
+    display:inline;
+    font-size: 20px;
+    /* border: 1px solid black; */
+    /* height: 20px;
+    width: 50px; */
+}
+
+.searchtext::placeholder {
+   
+   color:black;
+    font-size: 18px;
+  }
+  .card1{
+    border: 1px solid black;
+    height: 170px;
+    width : 150px;
+    top: 500px;
+    left: 200px;
+  } 
+a{
+  color: black;
+  outline: none;
+} 
+.style1{
+  color: black;
+  outline: none;
+}
+
+.navigation {
+  position: relative;
+  left: 20px;
+  /* border: 1px solid black; */
+  height: 500px;
+  width: 200px;
+  float: left; /* Added to align the navigation to the left */
+  margin-right: 20px; /* Added margin to create space between the navigation and cards */
+}
+
+a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.button-style{
+
+  width:180px;
+  height:40px;
+  border-radius:5px;
+  font-size:12px;
+  background-color: black;
+  color:white;
+  margin-left:60px;
+}
+.input-submit{
+  padding:2px;
+  width:68px;
+  height:22px;
+   font-size: 12px;
+   font-weight: bold;
+  
+}
+
+.card {
+  /* border: 1px solid black; */
+  height: 340px;
+  width: 60px;
+  margin-bottom: 20px;
+  flex: 0 0 calc(33.33% - 30px);
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cards {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 240px;
+  width: 760px;
+}
+.movie-title {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
